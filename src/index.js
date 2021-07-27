@@ -63,11 +63,11 @@ console.log(generator.next());
 console.log(generator.next());
 console.log(generator.next());
 
-// console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc + item));
-// console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc + item, 10));
-// console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc * item));
-// console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc * item, 1));
-// console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc - item));
+console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc + item));
+console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc + item, 10));
+console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc * item));
+console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc * item, 1));
+console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc - item));
 
 // console.log(take([1, 2, 3], 5)); // -> [1, 2, 3]
 // console.log(take([1, 2, 3], 2)); // -> [1, 2]
