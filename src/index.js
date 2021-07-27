@@ -72,21 +72,21 @@ console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc - item));
 console.log(take([1, 2, 3], 5)); // -> [1, 2, 3]
 console.log(take([1, 2, 3], 2)); // -> [1, 2]
 
-// console.log(without([2, 1, 2, 3], 1, 2)) //-> [3]
-// console.log(without([2, 1, 10, 20], 1, 2)) //-> [10, 20]
+console.log(without([2, 1, 2, 3], 1, 2)) //-> [3]
+console.log(without([2, 1, 10, 20], 1, 2)) //-> [10, 20]
 
-// console.log(indexOfAll([1, 2, 3, 1, 2, 3], 1)); //-> [0, 3]
-// console.log(indexOfAll([1, 2, 3], 4)); //-> []
+console.log(indexOfAll([1, 2, 3, 1, 2, 3], 1)); //-> [0, 3]
+console.log(indexOfAll([1, 2, 3], 4)); //-> []
 
 
-// const meetups = [
-//     { name: 'JavaScript', isActive: true, members: 100 },
-//     { name: 'Angular', isActive: true, members: 900 },
-//     { name: 'Node', isActive: false, members: 600 },
-//     { name: 'React', isActive: true, members: 500 },
-// ];
+const meetups = [
+    { name: 'JavaScript', isActive: true, members: 100 },
+    { name: 'Angular', isActive: true, members: 900 },
+    { name: 'Node', isActive: false, members: 600 },
+    { name: 'React', isActive: true, members: 500 },
+];
 
-// console.log(membersOnActiveMeetups(meetups));
+console.log(membersOnActiveMeetups(meetups));
 
 // console.log('task1 old', task1Old(10) === 500); // true
 // console.log('task1 new', task1New(10) === 500); // true
