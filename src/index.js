@@ -122,13 +122,13 @@ console.log('task3 new', task3New(['hello', 'test', 12])); // [ 1, 2, 'hello', '
 
 console.log('=============');
 
-// console.log('task4 old', task4Old()); // {x: 10, y: 10, bar: function, baztest: 'new field'}
-// console.log('task4 new', task4New()); // {x: 10, y: 10, bar: function, baztest: 'new field'}
+console.log('task4 old', task4Old()); // {x: 10, y: 10, bar: function, baztest: 'new field'}
+console.log('task4 new', task4New()); // {x: 10, y: 10, bar: function, baztest: 'new field'}
 
-// console.log('=============');
+console.log('=============');
 
-// console.log('task5 old', task5Old(['test', 42], { name: 'foo', val: 7 })); // ['test', 42, 'foo', 7]
-// console.log('task5 new', task5New(['test', 42], { name: 'foo', val: 7 })); // ['test', 42, 'foo', 7]
+console.log('task5 old', task5Old(['test', 42], { name: 'foo', val: 7 })); // ['test', 42, 'foo', 7]
+console.log('task5 new', task5New(['test', 42], { name: 'foo', val: 7 })); // ['test', 42, 'foo', 7]
 
 // console.log('=============');
 
