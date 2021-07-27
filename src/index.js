@@ -55,13 +55,13 @@ forEachRight([1, 2, 3, 4], val => console.log(val));
 console.log(union([5, 1, 2, 3, 3], [4, 3, 2]));
 console.log(union([5, 1, 3, 3, 4], [1, 3, 4]));
 
-// const generator = createGenerator([1, '6', 3, 2]);
-// console.log(generator.next());
-// console.log(generator.next());
-// console.log(generator.next());
-// console.log(generator.next());
-// console.log(generator.next());
-// console.log(generator.next());
+const generator = createGenerator([1, '6', 3, 2]);
+console.log(generator.next());
+console.log(generator.next());
+console.log(generator.next());
+console.log(generator.next());
+console.log(generator.next());
+console.log(generator.next());
 
 // console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc + item));
 // console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc + item, 10));
