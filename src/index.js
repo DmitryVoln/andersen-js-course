@@ -157,10 +157,10 @@ console.log('task10 new', task10New()); // {name: 'Max', age: 12, color: red}
 
 console.log('=============');
 
-// console.log('task11 old', task11Old({a: null}, 'a')); // false
-// console.log('task11 new', task11New({a: null}, 'a')); // false
+console.log('task11 old', task11Old({a: null}, 'a')); // false
+console.log('task11 new', task11New({a: null}, 'a')); // false
 
-// console.log('=============');
+console.log('=============');
 
 // console.log('task12 old', task12Old({ obj2: { some: true }}, 'obj2', 'some2' )); // undefined
 // console.log('task12 new', task12New({ obj2: { some: true }}, 'obj2', 'some2' )); // undefined
