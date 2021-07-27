@@ -162,10 +162,10 @@ console.log('task11 new', task11New({a: null}, 'a')); // false
 
 console.log('=============');
 
-// console.log('task12 old', task12Old({ obj2: { some: true }}, 'obj2', 'some2' )); // undefined
-// console.log('task12 new', task12New({ obj2: { some: true }}, 'obj2', 'some2' )); // undefined
+console.log('task12 old', task12Old({ obj2: { some: true }}, 'obj2', 'some2' )); // undefined
+console.log('task12 new', task12New({ obj2: { some: true }}, 'obj2', 'some2' )); // undefined
 
-// console.log('=============');
+console.log('=============');
 
 // console.log('task13 old', task13Old([1, 2, 3, [4, 5]])); // [1, 2, 3, 4, 5]
 // console.log('task13 new', task13New([1, 2, 3, [4, 5]])); // [1, 2, 3, 4, 5]
