@@ -27,33 +27,41 @@ import { indexOfAll } from './array-practice/task9';
 import { membersOnActiveMeetups } from './array-practice/task10';
 
 
-// import { task1Old, task1New } from './es-features/task1';
-// import { task2Old, task2New } from './es-features/task2';
-// import { task3Old, task3New } from './es-features/task3';
-// import { task4Old, task4New } from './es-features/task4';
-// import { task5Old, task5New } from './es-features/task5';
-// import { task6Old, task6New } from './es-features/task6';
-// import { task7Old, task7New } from './es-features/task7';
-// import { task8Old, task8New } from './es-features/task8';
-// import { task9Old, task9New } from './es-features/task9';
-// import { task10Old, task10New } from './es-features/task10';
-// import { task11Old, task11New } from './es-features/task11';
-// import { task12Old, task12New } from './es-features/task12';
-// import { task13Old, task13New } from './es-features/task13';
-// import { task14Old, task14New } from './es-features/task14';
-// import { task15Old, task15New } from './es-features/task15';
+import { task1Old, task1New } from './es-features/task1';
+import { task2Old, task2New } from './es-features/task2';
+import { task3Old, task3New } from './es-features/task3';
+import { task4Old, task4New } from './es-features/task4';
+import { task5Old, task5New } from './es-features/task5';
+import { task6Old, task6New } from './es-features/task6';
+import { task7Old, task7New } from './es-features/task7';
+import { task8Old, task8New } from './es-features/task8';
+import { task9Old, task9New } from './es-features/task9';
+import { task10Old, task10New } from './es-features/task10';
+import { task11Old, task11New } from './es-features/task11';
+import { task12Old, task12New } from './es-features/task12';
+import { task13Old, task13New } from './es-features/task13';
+import { task14Old, task14New } from './es-features/task14';
+import { task15Old, task15New } from './es-features/task15';
 
 console.log(any([0, 1, 2, 0], x => x >= 2));
 console.log(any([0, 0, 1, 0]));
 console.log(any([0, 0, 0, 0]));
 
+console.log('=============');
+
 console.log(arrayDiff([1, 2, 3], [1, 2, 4, 7]));
 console.log(arrayDiff([1, 3, 3, 4], [1, 3, '4']));
 
+console.log('=============');
+
 forEachRight([1, 2, 3, 4], val => console.log(val));
+
+console.log('=============');
 
 console.log(union([5, 1, 2, 3, 3], [4, 3, 2]));
 console.log(union([5, 1, 3, 3, 4], [1, 3, 4]));
+
+console.log('=============');
 
 const generator = createGenerator([1, '6', 3, 2]);
 console.log(generator.next());
@@ -63,21 +71,30 @@ console.log(generator.next());
 console.log(generator.next());
 console.log(generator.next());
 
+console.log('=============');
+
 console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc + item));
 console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc + item, 10));
 console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc * item));
 console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc * item, 1));
 console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc - item));
 
+console.log('=============');
+
 console.log(take([1, 2, 3], 5)); // -> [1, 2, 3]
 console.log(take([1, 2, 3], 2)); // -> [1, 2]
+
+console.log('=============');
 
 console.log(without([2, 1, 2, 3], 1, 2)) //-> [3]
 console.log(without([2, 1, 10, 20], 1, 2)) //-> [10, 20]
 
+console.log('=============');
+
 console.log(indexOfAll([1, 2, 3, 1, 2, 3], 1)); //-> [0, 3]
 console.log(indexOfAll([1, 2, 3], 4)); //-> []
 
+console.log('=============');
 
 const meetups = [
     { name: 'JavaScript', isActive: true, members: 100 },
@@ -88,13 +105,15 @@ const meetups = [
 
 console.log(membersOnActiveMeetups(meetups));
 
-// console.log('task1 old', task1Old(10) === 500); // true
-// console.log('task1 new', task1New(10) === 500); // true
+console.log('es-features');
 
-// console.log('=============');
+console.log('task1 old', task1Old(10) === 500); // true
+console.log('task1 new', task1New(10) === 500); // true
 
-// console.log('task2 old', task2Old(1, 2, 'test', false, 'new', 'best') === 12); // true
-// console.log('task2 new', task2New(1, 2, 'test', false, 'new', 'best') === 12); // true
+console.log('=============');
+
+console.log('task2 old', task2Old(1, 2, 'test', false, 'new', 'best') === 12); // true
+console.log('task2 new', task2New(1, 2, 'test', false, 'new', 'best') === 12); // true
 
 // console.log('=============');
 
