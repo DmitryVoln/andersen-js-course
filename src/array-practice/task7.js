@@ -11,3 +11,16 @@
  * console.log(take([1, 2, 3], 5)); -> [1, 2, 3]
  * console.log(take([1, 2, 3], 2)); -> [1, 2]
  */
+export function take(arr, count) {
+  return count >= arr.length ? arr : arr.slice(0, count);
+  //or:
+  // const result = [];
+  // if (count >= arr.length) {
+  //     return arr;
+  // } else {
+  //     for (let i = 0; i < count; i++) {
+  //         result.push(arr[i]);
+  //         }
+  //         return result;
+  //     }
+}

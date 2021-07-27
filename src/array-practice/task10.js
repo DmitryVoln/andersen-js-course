@@ -16,5 +16,12 @@
 //   { name: 'Node', isActive: false, members: 600 },
 //   { name: 'React', isActive: true, members: 500 },
 // ];
-
-// function membersOnActiveMeetups(meetups) {}
+export function membersOnActiveMeetups(meetups) {
+  return meetups.filter(member => member.isActive).reduce((acc, member) => member.members + acc, 0);
+  //or:
+  // return meetups.reduce((acc, member) => {
+  //     if (member.isActive) {
+  //         return acc + member.members;
+  //     } return acc;
+  // }, 0)
+}

@@ -14,3 +14,10 @@
  * console.log(any([0, 0, 1, 0])); -> true
  * console.log(any([0, 0, 0, 0])); -> false
  */
+
+export function any(arr, cb) {
+  if (!cb) {
+    return arr.filter(item => Boolean(item)).length > 0;
+  }
+  return arr.some(cb);
+}
