@@ -17,5 +17,5 @@ export function task2Old(a, b) {
 // При желании, можете использовать стрелочную функцию, вместо обычной
 
 export function task2New(a, b, ...rest) {
-
+  return (a + b) * rest.length;
 }
