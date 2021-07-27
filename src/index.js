@@ -175,9 +175,9 @@ console.log('=============');
 console.log('task14 old', task14Old({ a: 10, b: 55, c: 3 })); // [["a", 10], ["b", 55], ["c", 3]]
 console.log('task14 new', task14New({ a: 10, b: 55, c: 3 })); // [["a", 10], ["b", 55], ["c", 3]]
 
-// console.log('=============');
+console.log('=============');
 
-// console.log('task15 old', task15Old([['a', 1], ['b', 2]])); // {a: 1, b: 2}
-// console.log('task15 new', task15New([['a', 1], ['b', 2]])); // {a: 1, b: 2}
+console.log('task15 old', task15Old([['a', 1], ['b', 2]])); // {a: 1, b: 2}
+console.log('task15 new', task15New([['a', 1], ['b', 2]])); // {a: 1, b: 2}
 
-// console.log('=============');
+console.log('=============');
