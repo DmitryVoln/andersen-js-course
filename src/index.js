@@ -69,8 +69,8 @@ console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc * item));
 console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc * item, 1));
 console.log(transformArrayToNumber([10, 20, 30], (acc, item) => acc - item));
 
-// console.log(take([1, 2, 3], 5)); // -> [1, 2, 3]
-// console.log(take([1, 2, 3], 2)); // -> [1, 2]
+console.log(take([1, 2, 3], 5)); // -> [1, 2, 3]
+console.log(take([1, 2, 3], 2)); // -> [1, 2]
 
 // console.log(without([2, 1, 2, 3], 1, 2)) //-> [3]
 // console.log(without([2, 1, 10, 20], 1, 2)) //-> [10, 20]
