@@ -115,12 +115,12 @@ console.log('=============');
 console.log('task2 old', task2Old(1, 2, 'test', false, 'new', 'best') === 12); // true
 console.log('task2 new', task2New(1, 2, 'test', false, 'new', 'best') === 12); // true
 
-// console.log('=============');
+console.log('=============');
 
-// console.log('task3 old', task3Old(['hello', 'test', 12])); // [ 1, 2, 'hello', 'test', 12 ]
-// console.log('task3 new', task3New(['hello', 'test', 12])); // [ 1, 2, 'hello', 'test', 12 ]
+console.log('task3 old', task3Old(['hello', 'test', 12])); // [ 1, 2, 'hello', 'test', 12 ]
+console.log('task3 new', task3New(['hello', 'test', 12])); // [ 1, 2, 'hello', 'test', 12 ]
 
-// console.log('=============');
+console.log('=============');
 
 // console.log('task4 old', task4Old()); // {x: 10, y: 10, bar: function, baztest: 'new field'}
 // console.log('task4 new', task4New()); // {x: 10, y: 10, bar: function, baztest: 'new field'}
