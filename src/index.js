@@ -105,7 +105,9 @@ const meetups = [
 
 console.log(membersOnActiveMeetups(meetups));
 
-console.log('es-features');
+console.log('=============');
+
+console.log('======================es-features');
 
 console.log('task1 old', task1Old(10) === 500); // true
 console.log('task1 new', task1New(10) === 500); // true
