@@ -50,7 +50,7 @@ console.log(any([0, 0, 0, 0]));
 console.log(arrayDiff([1, 2, 3], [1, 2, 4, 7]));
 console.log(arrayDiff([1, 3, 3, 4], [1, 3, '4']));
 
-// forEachRight([1, 2, 3, 4], val => console.log(val));
+forEachRight([1, 2, 3, 4], val => console.log(val));
 
 // console.log(union([5, 1, 2, 3, 3], [4, 3, 2]));
 // console.log(union([5, 1, 3, 3, 4], [1, 3, 4]));
