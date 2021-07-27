@@ -40,10 +40,10 @@ export function task4New() {
     bar() {
       return this.x + this.y;
     },
-  }
+  };
   const foo = () => {
     return 'test';
-  }
+  };
   obj[`baz${foo()}`] = 'new field';
 
   return obj;

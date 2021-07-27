@@ -18,6 +18,6 @@ export function task5Old(array, obj) {
 
 export function task5New(array, obj) {
   let [name, val] = array;
-  let {name: objName, val: objValue} = obj;
+  let { name: objName, val: objValue } = obj;
   return [name, val, objName, objValue];
 }

@@ -36,8 +36,14 @@ export function task6New() {
       role: { name: 'Admin' },
       cases: [{ id: '1' }],
     };
-  }
+  };
   let tmp = userModule();
-  let {name, value, role: { name: rolename }, isActive = false, cases: [{id}]} = tmp;
+  let {
+    name,
+    value,
+    role: { name: rolename },
+    isActive = false,
+    cases: [{ id }],
+  } = tmp;
   return [name, value, rolename, isActive, id];
 }
