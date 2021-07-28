@@ -195,8 +195,8 @@
 
 // console.log('=============');
 
-import { foo, createCb } from './asynchronous-programming/task1.js';
-import { parseJSON, successCb, failureCb } from './asynchronous-programming/task2.js';
+import { foo, createCb } from './asynchronous-programming/task1';
+import { parseJSON, successCb, failureCb } from './asynchronous-programming/task2';
 import { delay } from './asynchronous-programming/task3';
 import { fetchData } from './asynchronous-programming/task4';
 import { fetchDataParallel, fetchDataConsistently } from './asynchronous-programming/task5';
