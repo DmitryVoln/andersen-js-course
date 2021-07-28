@@ -3,8 +3,8 @@ function parseJSON(jsonStr, successCb, failureCb) {
     let jsonParsed = JSON.parse(jsonStr);
     if (jsonParsed) {
       return successCb(jsonParsed);
-    }
-  } catch (err) {
+  }
+  } catch(err) {
     return failureCb(err);
   }
 }
